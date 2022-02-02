@@ -73,19 +73,19 @@
     "witsec-mailform": false,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-78MQBGNQBH\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-78MQBGNQBH');\n</script>\n",
-    "mbrsiteDomain": "8di0ukgkds",
+    "mbrsiteDomain": "fr9mi1vxea",
     "witsec-language": "eu"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Gipuzkoako XII. Neguko Saria",
-        "meta_descr": "Distantzia Luzeko Euskal Herriko Txapelketa",
+        "title": "Gipuzkoako Sariak",
+        "meta_descr": "Gipuzkoako XII. Neguko Saria - Allurralde",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/82772124-630338577736138-4028436335873228800-o.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp-image-2020-02-09-at-09.08.13-3-1600x1200.jpeg"
       },
       "components": [
         {
