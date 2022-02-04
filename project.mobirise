@@ -46,7 +46,7 @@
     ],
     "dppsSwitcher": true,
     "spellingSwitch": true,
-    "uniqCompNum": 79,
+    "uniqCompNum": 80,
     "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -607,6 +607,39 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "modalName": "Oharra",
+            "modalSize": "large",
+            "modalHeader": true,
+            "modalTitle": "Oharra",
+            "modalBody": "Honako serieak elkartu egingo dira, igerilariak bakarrik ez dezan igeri egin:\n\n- 6 eta 8: 100 tximeleta\n- 22 eta 24: 200 bizkar\n- 30 eta 32: 4x50 libre gizonezkoak (denbora aurrezteko)\n- 42 eta 44: 4x50 lau estiloak gizonezkoak (denbora aurrezteko)\n- 50 eta 52: 200 bular\n- 58 eta 60: 50 tximeleta\n- 62 eta 64: 200 lau estiloak\n- ",
+            "modalBodyHTML": false,
+            "modalFooter": false,
+            "modalCloseBtn": false,
+            "modalCloseText": "Close",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": false,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": false,
+            "modalAutoOpenGDPR": false,
+            "modalAutoOpenDelay": "2"
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Oharra\" data-bs-toggle=\"modal\" data-bs-target=\"#Oharra\">Preview Oharra</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Oharra-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#Oharra-howtouse\">How to use Oharra</a>\n</div>\n<div class=\"modal fade\" id=\"Oharra-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Oharra-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Oharra-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Oharra')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Honako serieak elkartu egingo dira, igerilariak bakarrik ez dezan igeri egin:\n\n- 6 eta 8: 100 tximeleta\n- 22 eta 24: 200 bizkar\n- 30 eta 32: 4x50 libre gizonezkoak (denbora aurrezteko)\n- 42 eta 44: 4x50 lau estiloak gizonezkoak (denbora aurrezteko)\n- 50 eta 52: 200 bular\n- 58 eta 60: 50 tximeleta\n- 62 eta 64: 200 lau estiloak\n- ",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-27",
+          "modalWindow": "<div class=\"modal fade\" id=\"Oharra\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"OharraLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"OharraLabel\">Oharra</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Oharra_body\">Honako serieak elkartu egingo dira, igerilariak bakarrik ez dezan igeri egin:<br /><br />- 6 eta 8: 100 tximeleta<br />- 22 eta 24: 200 bizkar<br />- 30 eta 32: 4x50 libre gizonezkoak (denbora aurrezteko)<br />- 42 eta 44: 4x50 lau estiloak gizonezkoak (denbora aurrezteko)<br />- 50 eta 52: 200 bular<br />- 58 eta 60: 50 tximeleta<br />- 62 eta 64: 200 lau estiloak<br />- </div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#Oharra\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#Oharra_body\" ).html(); \n      $( \"#Oharra_body\" ).empty(); \n      $( \"#Oharra_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#Oharra\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "alias": false,
