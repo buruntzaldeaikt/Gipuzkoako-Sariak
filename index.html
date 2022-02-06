@@ -99,7 +99,7 @@
                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Gipuzkoako XII. Neguko Saria</strong></h1>
                 <h2 class="mbr-section-title mbr-fonts-style mb-3 display-2">2022ko otsailaren 5a, 15:30etan hasita</h2>
                 <p class="mbr-text mbr-fonts-style display-5">Allurralde Udal Kiroldegia, Andoain</p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="javascript:OpenModal('Oharra')">Oharrak</a> <a class="btn btn-white display-4" href="assets/files/21-11-25-7.ZIRKULARRAGipuzkoakonegukosaria.pdf" target="_blank">Arautegia</a>   <a class="btn btn-white display-4" href="assets/files/2022-02-01-serieakGipuzkoakoNegukosariaAndoain.pdf" target="_blank">Serieak</a>  <a class="btn btn-white display-4" href="assets/files/2022-02-01-serieakGipuzkoakoNegukosariaAndoain.pdf" target="_blank">Emaitzak (GIFek argitaratzean)</a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-white-outline display-4" href="javascript:OpenModal('Oharra')">Oharrak</a> <a class="btn btn-white display-4" href="assets/files/21-11-25-7.ZIRKULARRAGipuzkoakonegukosaria.pdf" target="_blank">Arautegia</a>   <a class="btn btn-white display-4" href="assets/files/2022-02-01-serieakGipuzkoakoNegukosariaAndoain.pdf" target="_blank">Serieak</a>  <a class="btn btn-white display-4" href="assets/files/2022-02-01-serieakGipuzkoakoNegukosariaAndoain.pdf" target="_blank">Emaitzak (GIFek argitaratzean)</a> <a class="btn btn-white display-4" href="https://photos.app.goo.gl/84Z8P5MZUoF4FGQg8" target="_blank">Argazkiak</a></div>
             </div>
         </div>
     </div>
@@ -127,83 +127,6 @@
         </div>
     </div>
 </section>
-
-<section class="mbr-section" id="witsec-modal-window-block-27" data-rv-view="1880">
-
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal fade" id="Oharra" tabindex="-1" role="dialog" aria-labelledby="OharraLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="OharraLabel">Oharra</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Oharra_body">Honako serieak elkartu egingo dira, igerilariek bakarrik ez dezaten igeri egin:<br><br>- 6 eta 8: 100 tximeleta<br>- 22 eta 24: 200 bizkar<br>- 30 eta 32: 4x50 libre gizonezkoak (denbora aurrezteko)<br>- 42 eta 44: 4x50 lau estiloak gizonezkoak (denbora aurrezteko)<br>- 50 eta 52: 200 bular<br>- 58 eta 60: 50 tximeleta<br>- 62 eta 64: 200 lau estiloak<br>- </div>    </div>  </div></div><script> 
-document.addEventListener("DOMContentLoaded", function() { 
-  if(typeof jQuery === "function") {
-    $("#Oharra").on("hidden.bs.modal", function () { 
-      var html = $( "#Oharra_body" ).html(); 
-      $( "#Oharra_body" ).empty(); 
-      $( "#Oharra_body" ).append(html); 
-    }) 
-  } else { 
-      var mdw = document.getElementById("#Oharra") 
-      mdw.addEventListener("hidden.bs.modal", function(event) { 
-        mdw.innerHTML = mdw.innerHTML; 
-      }); 
-  } 
-}); 
-</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if(typeof jQuery === "function") {
-				if ($('#' + modalName).length)
-					$('#' + modalName).modal('show');
-				else
-					alert("Sorry, but there is no modal for " + modalName);
-			} else {
-				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
-				mdw.show();
-			}
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
-</section><script>
-document.addEventListener("DOMContentLoaded", function() {
-  setTimeout( function() { OpenModal("Oharra"); } , 2000);
-});
-</script>
 
 <section data-bs-version="5.1" class="features1 cid-sRFamDmNBr" id="Covid-19">
     
